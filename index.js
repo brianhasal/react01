@@ -1,3 +1,11 @@
+
+
+
+// If I remove the react calls in index.html, I have to import React and ReactDOM here
+import React from "react"
+import ReactDOM from "react-dom"
+
+
 // const page = (
 //     <div>
 //         <h1 className="header">This is JSX</h1>
@@ -17,7 +25,7 @@ Create a navbar in JSX:
     - Don't worry about styling yet - it'll just be plain-looking HTML for now
 */
 
-const navbartest = (
+const navbar = (
   <nav>
     <h1>Chewbacca Enterprises</h1>
     <ul>
@@ -28,7 +36,7 @@ const navbartest = (
   </nav>
 )
 
-ReactDOM.render(navbartest, document.getElementById("root"));
+ReactDOM.render(navbar, document.getElementById("root"));
 
 
 
